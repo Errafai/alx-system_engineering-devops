@@ -1,0 +1,3 @@
+#!/bin/bash
+echo -e "\n"{a..z}{a..z} | sed "s/oo//g" | sort | tail -n +3
+
