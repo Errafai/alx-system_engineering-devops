@@ -8,6 +8,5 @@ files="$(ls)"
 
 for file in $files
 do
-	file="$(find "$file" | cut -d- -f2)"
-	echo "$file"
+	echo "$file"| cut -d- -f2
 done
