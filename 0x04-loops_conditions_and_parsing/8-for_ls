@@ -4,7 +4,7 @@
 #In a list format
 #Where only the part of the name after the first dash is displayed
 
-files="$(ls .)"
+files="$(ls)"
 
 for file in $files
 do
