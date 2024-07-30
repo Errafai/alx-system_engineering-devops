@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#read the file apache-access.log and give a report in form of IP HTTP_CODE
+awk '{print $1,$9}' apache-access.log
