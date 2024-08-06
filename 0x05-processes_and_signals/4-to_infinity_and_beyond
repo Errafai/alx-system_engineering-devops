@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#write a bash that displays the `To infinity and beyond` and sleep 2s every itaration
+while ((1));do
+	echo "To infinity and beyond"
+	sleep 2
+done
