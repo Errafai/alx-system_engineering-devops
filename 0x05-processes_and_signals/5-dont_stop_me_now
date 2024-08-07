@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#stop the 4-to_infinity_and_beyond script using the kill cmd
+pgrep -f "./4-to_infinity_and_beyond" | xargs kill
