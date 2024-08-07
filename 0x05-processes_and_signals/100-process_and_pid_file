@@ -13,5 +13,5 @@ do
 	echo "To infinity and beyond"
 	trap "echo 'I hate the kill command'" SIGTERM
 	trap "echo 'Y U no love me?!'" SIGINT
-	trap "rm $file" SIGQUIT SIGTERM
+	trap 'rm $file' SIGQUIT SIGTERM
 done
