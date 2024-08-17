@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#this script displays the active ips (ipv4)
+ifconfig | grep "inet " | cut -d ' ' -f 10
